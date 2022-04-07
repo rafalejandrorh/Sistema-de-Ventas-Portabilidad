@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ventas\.enlacecc\.emprende\.ve$
+RewriteRule ^/?$ "https\:\/\/ventas\.enlacecc\.emprende\.ve\/Ingreso_Ventas\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dashboard\.enlacecc\.emprende\.ve$
+RewriteRule ^/?$ "https\:\/\/dashboard\.enlacecc\.emprende\.ve\/admin\/index\.php" [R=301,L]
+
