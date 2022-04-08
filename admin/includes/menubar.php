@@ -44,6 +44,20 @@
         <li><a href="Plantilla_egreso.php"><i class="fa fa-circle-o"></i>Egresos</a></li>
         </ul>
         </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-money"></i>
+            <span>Comisiones</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+        <li><a href="comisiones_rac.php"><i class="fa fa-circle-o"></i>RAC</a></li>
+        <li><a href="comisiones_admin.php"><i class="fa fa-circle-o"></i>Administrativo</a></li>
+        </ul>
+        </li>
 <!--
         <li class="header">IMPRESIÓN</li>
         <li class="treeview">
