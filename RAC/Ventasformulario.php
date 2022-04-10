@@ -11,7 +11,7 @@
     <section class="content-header">
     <h1 class="box-title"><b>Formulario de Ventas</b></h1>
             <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Ventas</a></li>
+            <li><a href="#"><i class="fa fa-files-o"></i>Ventas</a></li>
             <li class="active">Ingreso de Ventas</li>
             </ol> 
 
@@ -45,7 +45,17 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border"> 
+              <div class="pull-left">
+              <h2><b>Hora Venezuela:</b></h2>
     	        <h3 id="time"></h3>
+              </div>
+              <div class="pull-right">
+              <h2><b>Hora México (CDMX):</b></h2>
+              <?php date_default_timezone_set('America/Mexico_City'); 
+                        $Time = date('h:i:s A', Time()); 
+                        echo "<h3>".$Time."</h3>";
+                        ?>
+                        </div>
             </div>
             <div class="box-body">
     	          <h4 class="login-box-msg">Ingresa los datos de tu Venta 😎</h4>

@@ -6,7 +6,7 @@
 		$referencia = $_POST['referencia'];
 		$pago = $_POST['pago'];
 		
-		$sql = "UPDATE Calculo Comisiones SET NRO_REFERENCIA = '$referencia', PAGO = '$pago' WHERE RAC = '$rac'";
+		$sql = "UPDATE Calculo_Comisiones SET NRO_REFERENCIA = '$referencia', PAGO = '$pago' WHERE RAC = '$rac'";
 		if($conn->query($sql)){
 			$_SESSION['success'] = 'Información de pago Actualizada';
 		}

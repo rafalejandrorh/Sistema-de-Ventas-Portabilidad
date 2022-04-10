@@ -17,10 +17,10 @@
 
   <div class="content-wrapper">
     <section class="content-header">
-      <h1><b>Comisiones RAC</b></h1>
+      <h1><b>Claves LADA MX</b></h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-money"></i> Comisiones</a></li>
-        <li class="active">RAC</li>
+        <li><a href="#"><i class="fa fa-compass"></i> Herramientas de Gestión</a></li>
+        <li class="active">Claves LADA MX</li>
       </ol>
     </section>
 
@@ -62,54 +62,31 @@
             <div class="box-body">
             <table id="example2" class="table table-bordered">
                   <thead>
-                    <th class="">RAC</th>
-                    <th class="">ALTAS</th>
-                    <th class="">MONTO ALTA</th>
-                    <th class="">MONTO A COBRAR</th>
-                    <th class="">MONTO BS</th>
-                    <th class="">TASA BS</th>
-                    <th class="">N° REF</th>
-                    <th class="">PAGO</th>
-                    <th class="">N° CUENTA</th>
-                    <th class="">PAGO MÓVIL</th>
-                    <th class="">EDITAR</th>
+                    <th class="">LADA</th>
+                    <th class="">ESTADO</th>
                   </thead>
                   <tbody>
                         <?php
-                        date_default_timezone_set('America/Caracas');
-                        
-                        $Date = date('Y-m-d');
-                        $sql="SELECT * from Calculo_Comisiones";
-                        $sql2="SELECT * from SUM(ALTAS) AS SUMALTA FROM Calculo_Comisiones";
+                       
+                        $sql="SELECT * from LadasMX";
                         $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
                         ?>
                         <tr>
-                            <td><?php echo $row['RAC']; ?></td>
-                            <td><?php echo $row['ALTAS']; ?></td>
-                            <td><?php echo $row['MONTO_ALTA']; ?></td>
-                            <td><?php echo $row['MONTO_A_COBRAR']; ?></td>
-                            <td><?php echo $row['MONTO_BS']; ?></td>
-                            <td><?php echo $row['TASA_BS']; ?></td>
-                            <td><?php echo $row['NRO_REFERENCIA']; ?></td>
-                            <td><?php echo $row['PAGO']; ?></td>
-                            <td><?php echo $row['NRO_CUENTA']; ?></td>
-                            <td><?php echo $row['PAGO_MOVIL']; ?></td>
-                            <td>
-                            <button class='btn btn-secundary btn-sm edit btn-flat' data-id="<?php echo $row['RAC']; ?>"><i class="fa fa-edit"></i></button>
-                            </td>         
+                            <td><?php echo $row['LADA']; ?></td>
+                            <td><?php echo $row['ESTADO']; ?></td>     
                         </tr>
                         <?php
                         }?>
                         </tbody>
                         </table>
+
                       </div> 
             </div>
           </div>
         </div>
       </div>
-
-      </div>
+      </div>  
         </div>
       </div>
                      
@@ -121,34 +98,5 @@
     <?php include 'includes/scripts.php'; ?>
     
 </div>
-
-<?php include 'includes/comisiones_rac_modal.php'; ?>
-
-<script>
-$(function(){
-
-  $('.edit').click(function(e){
-    e.preventDefault();
-    $('#edit').modal('show');
-    var id = $(this).data('id');
-    getRow(id);
-  });
-
-});
-
-  function getRow(id){
-  $.ajax({
-    type: 'POST',
-    url: 'comisiones_rac_row.php',
-    data: {id:id},
-    dataType: 'json',
-    success: function(response){
-      $('#RAC').val(response.RAC);
-      $('#NRO_REFERENCIA').val(response.NRO_REFERENCIA);
-      $('#PAGO').val(response.PAGO);
-    }
-  });
-  }
-</script>
 </body>
 </html>

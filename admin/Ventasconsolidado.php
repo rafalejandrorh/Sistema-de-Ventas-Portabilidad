@@ -20,7 +20,7 @@ $range_from = date('m/d/Y', strtotime('-1 day', strtotime($range_to)));
   
             <h1>Consolidado de Ventas</h1>
             <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Ventas</a></li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>Ventas</a></li>
             <li class="active">Ventas Totales</li>
             </ol>     
 

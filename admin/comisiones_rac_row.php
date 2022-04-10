@@ -3,7 +3,7 @@
 
 	if(isset($_POST['id'])){
 		$id = $_POST['id'];
-		$sql = "SELECT * from Calculo Comisiones WHERE RAC = '$id'";
+		$sql = "SELECT * from Calculo_Comisiones WHERE RAC = '$id'";
 		$query = $conn->query($sql);
 		$row = $query->fetch_assoc();
 

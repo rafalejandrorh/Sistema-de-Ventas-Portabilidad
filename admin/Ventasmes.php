@@ -15,7 +15,7 @@
   
             <h1>Ventas del Mes</h1>
             <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Ventas</a></li>
+            <li><a href="#"><i class="fa fa-suitcase"></i>Ventas</a></li>
             <li class="active">Ventas del Mes</li>
             </ol> 
    
