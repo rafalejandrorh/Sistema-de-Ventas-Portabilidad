@@ -71,6 +71,8 @@
         <li><a href="ladasmx.php"><i class="fa fa-circle-o"></i>Claves LADA MX</a></li>
         <li><a href="ofertas.php"><i class="fa fa-circle-o"></i>Ofertas Vigentes</a></li>
         <li><a href="cavs.php"><i class="fa fa-circle-o"></i>CAV´S Movistar</a></li>
+        <li><a href="curp.php"><i class="fa fa-circle-o"></i>Cálculo de CURP</a></li>
+        <li><a href="sns.php"><i class="fa fa-circle-o"></i>Consulta SNS</a></li>
         </ul>
         </li>
 <!--
