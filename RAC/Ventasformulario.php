@@ -217,6 +217,13 @@
                     </div>
                     </div>
 
+                    <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                    <input type="hidden" class="form-control" name="mes" placeholder="Mes" value="<?php date_default_timezone_set ('America/Caracas'); echo 
+                        $Date = date('F'); ?>" required>
+                    </div>
+                    </div>
+
                       <div class="form-group">
                       <div class="col-sm-12">
                           <button type="submit" class="btn btn-primary btn-block btn-flat" name="enviar"><i class="fa fa-sign-in"></i> Ingresar</button>
