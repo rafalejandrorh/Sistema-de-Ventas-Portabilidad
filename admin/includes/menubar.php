@@ -27,6 +27,8 @@
         <li><a href="Ventasconsolidado.php"><i class="fa fa-circle-o"></i> <span>Consolidado de Ventas</span></a></li>
         <li><a href="Ventasmes.php"><i class="fa fa-circle-o"></i> <span>Ventas del Mes</span></a></li>
         <li><a href="Ventasdia.php"><i class="fa fa-circle-o"></i> <span>Ventas del día</span></a></li>
+        <li><a href="enespera.php"><i class="fa fa-circle-o"></i> <span>Ventas Pendientes por Estatus</span></a></li>
+        <li><a href="rechazos.php"><i class="fa fa-circle-o"></i> <span>Rechazos</span></a></li>
         </ul>
         </li>
 
@@ -42,6 +44,8 @@
         <li><a href="Plantilla_activa.php"><i class="fa fa-circle-o"></i>Activos</a></li>
         <li><a href="Plantilla_inactiva.php"><i class="fa fa-circle-o"></i>Inactivos</a></li>
         <li><a href="Plantilla_egreso.php"><i class="fa fa-circle-o"></i>Egresos</a></li>
+        <li><a href="Plantilla_account_banks.php"><i class="fa fa-circle-o"></i>Cuentas Bancarias</a></li>
+        <li><a href="Plantilla_mobile_payment.php"><i class="fa fa-circle-o"></i>Pago Móvil</a></li>
         </ul>
         </li>
 
@@ -70,7 +74,7 @@
           <ul class="treeview-menu">
         <li><a href="ladasmx.php"><i class="fa fa-circle-o"></i>Claves LADA MX</a></li>
         <li><a href="ofertas.php"><i class="fa fa-circle-o"></i>Ofertas Vigentes</a></li>
-        <li><a href="cavs.php"><i class="fa fa-circle-o"></i>CAV´S Movistar</a></li>
+        <li><a href="cav.php"><i class="fa fa-circle-o"></i>CAV´S Movistar</a></li>
         <li><a href="curp.php"><i class="fa fa-circle-o"></i>Cálculo de CURP</a></li>
         <li><a href="sns.php"><i class="fa fa-circle-o"></i>Consulta SNS</a></li>
         </ul>

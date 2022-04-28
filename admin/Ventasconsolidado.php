@@ -82,7 +82,7 @@ $range_from = date('m/d/Y', strtotime('-1 day', strtotime($range_to)));
                     <th>FECHA DE CARGA</th>
                     <th>ESTATUS</th>
                     <th>FVC</th>
-                    <th>CAV</th>
+                    <th>ESTATUS CM</th>
                   </thead>
                   <tbody>
                         <?php
@@ -100,19 +100,20 @@ $range_from = date('m/d/Y', strtotime('-1 day', strtotime($range_to)));
                         $sql="SELECT * from ventastotales WHERE FECHA_CARGA BETWEEN '$from' AND '$to'";
                         $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
-                        echo "
-                        <tr>
-                            <td>".$row['DN']."</td>
-                            <td>".$row['NIP']."</td>
-                            <td>".$row['ESTADO_CAV']."</td>
-                            <td>".$row['CURP']."</td>
-                            <td>".$row['VENDEDOR']."</td>
-                            <td>".$row['FECHA_CARGA']."</td>
-                            <td>".$row['ESTATUS']."</td>
-                            <td>".$row['FVC']."</td>
-                            <td>".$row['CAV']."</td>
-                        </tr>
-                        ";}?>
+                              ?>
+                              <tr>
+                                  <td><?php echo $row['DN']; ?></td>
+                                  <td><?php echo $row['NIP']; ?></td>
+                                  <td><?php echo $row['ESTADO_CAV']; ?></td>
+                                  <td><?php echo $row['CURP']; ?></td>
+                                  <td><?php echo $row['VENDEDOR']; ?></td>
+                                  <td><?php echo $row['FECHA_CARGA']; ?></td>
+                                  <td><?php echo $row['ESTATUS']; ?></td>
+                                  <td><?php echo $row['FVC']; ?></td>
+                                  <td><?php echo $row['ESTATUS_CM']; ?></td>      
+                              </tr>
+                              <?php
+                              ;}?>
                         </tbody>
                         </table>
                   </div>
@@ -130,6 +131,7 @@ $range_from = date('m/d/Y', strtotime('-1 day', strtotime($range_to)));
   <?php include 'includes/Footer.php'; ?>
   <?php include 'includes/scripts.php'; ?>
   </div>  
+
 <script>
 
 $(function(){
@@ -151,6 +153,7 @@ $("#reservation").on('change', function(){
   });
 
 });
+
 </script>
 </body>
 </html>

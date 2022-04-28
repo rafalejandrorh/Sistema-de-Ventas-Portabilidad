@@ -1,4 +1,4 @@
-<?php include 'includes/session.php'; ?>
+  <?php include 'includes/session.php'; ?>
 <?php 
   include '../timezone.php'; 
   $today = date('Y-m-d');
@@ -92,11 +92,11 @@
           <div class="small-box bg-green">
             <div class="inner">
               <?php
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA'and cedula = ".$_SESSION['user']." AND MES = '$MES2'";
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA'and cedula = ".$_SESSION['user']." AND MES_ALTA = '$MES2'";
                 $query = $conn->query($sql);
                 $early = $query->num_rows;
 
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA/POSPAGO'and cedula = ".$_SESSION['user']." AND MES = '$MES2'";
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA/POSPAGO'and cedula = ".$_SESSION['user']." AND MES_ALTA = '$MES2'";
                 $query = $conn->query($sql);
                 $early2 = $query->num_rows;
 
@@ -144,11 +144,11 @@
                 $query = $conn->query($sql);
                 $total = $query->num_rows;
 
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA'and cedula = ".$_SESSION['user']." AND MES = '$MES2'";
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA' AND cedula = ".$_SESSION['user']." AND MES_ALTA = '$MES2'";
                 $query = $conn->query($sql);
                 $early = $query->num_rows;
 
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA/POSPAGO'and cedula = ".$_SESSION['user']." AND MES = '$MES2'";
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA/POSPAGO' AND cedula = ".$_SESSION['user']." AND MES_ALTA = '$MES2'";
                 $query = $conn->query($sql);
                 $early2 = $query->num_rows;
 
@@ -180,6 +180,32 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
+              <h2 class="box-title"><b>IMPORTANTE:</b></h2>
+            </div>
+            <div class="table-responsive">
+            <div class="box-body">
+            <!--<div class="text-center">
+              <h3><b>Recuerda usar la nueva funcionalidad. Al terminar el ingreso de tu venta, dirígete al apartado que se encuentra abajo de este mensaje haz click en el botón para enviar la Venta por WhatsApp a tu Supervisor.</b></h3>
+            </div>-->
+            <div align="center">
+              <h3><b> A partir de este momento TODAS las ventas tendrán FVC para Mayo; debido a que Telefónica está presentando fallas con ONIX y no permite ingresar ventas para Abril.</b></h3>
+            </div>
+             </div>
+              </div>
+              
+              <div class="table-responsive">
+            <div class="box-body">     
+             </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header with-border">
               <h3 class="box-title"><b>Tus Ventas del día</b></h3>
               <div class="box-tools pull-right">
                 <form class="form-inline">
@@ -192,16 +218,15 @@
             <div class="box-body">
             <table id="example2" class="table table-bordered">
                   <thead>
+                  <th>ACCIÓN</th>
                     <th>DN</th>
                     <th>NIP</th>
                     <th>ESTADO CAV</th>
                     <th>CURP</th>
-                    <th>CÉDULA</th>
                     <th>VENDEDOR</th>
-                    <th>FECHA DE CARGA</th>
                     <th>ESTATUS</th>
                     <th>FVC</th>
-                    <th>CAV</th>
+                    <th>INTERVALO</th>
                   </thead>
                   <tbody>
                         <?php
@@ -210,20 +235,23 @@
                         $sql="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date' AND cedula = '".$_SESSION['user']."'";
                         $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
-                        echo "
-                        <tr>
-                            <td>".$row['DN']."</td>
-                            <td>".$row['NIP']."</td>
-                            <td>".$row['ESTADO_CAV']."</td>
-                            <td>".$row['CURP']."</td>
-                            <td>".$row['cedula']."</td>
-                            <td>".$row['VENDEDOR']."</td>
-                            <td>".$row['FECHA_CARGA']."</td>
-                            <td>".$row['ESTATUS']."</td>
-                            <td>".$row['FVC']."</td>
-                            <td>".$row['CAV']."</td>
+                              ?>
+                              <tr>
+                                  <td>
+                                  <button class='btn btn-secundary btn-sm edit btn-flat' data-id="<?php echo $row['id']; ?>"><i class="ion-social-whatsapp">  Enviar por WhatsApp</i></button>
+                                  </td> 
+                                  <td><?php echo $row['DN']; ?></td>
+                                  <td><?php echo $row['NIP']; ?></td>
+                                  <td><?php echo $row['ESTADO_CAV']; ?></td>
+                                  <td><?php echo $row['CURP']; ?></td>
+                                  <td><?php echo $row['VENDEDOR']; ?></td>
+                                  <td><?php echo $row['ESTATUS']; ?></td>
+                                  <td><?php echo $row['FVC']; ?></td>
+                                  <td><?php echo $row['INTERVALO']; ?></td>
+                                  
                         </tr>
-                        ";}?>
+                        <?php
+                        }?>
                         </tbody>
                         </table>
                 </div>
@@ -237,14 +265,49 @@
     </div>
   	<?php include 'includes/footer.php'; ?>
     <?php include 'includes/scripts.php'; ?>
+    <?php include 'includes/ventasdia_modal.php'; ?>
 </div>
 
 <script>
+
 $(function(){
-  $('#select_year').change(function(){
-    window.location.href = 'home.php?year='+$(this).val();
-  });
+
+$('.edit').click(function(e){
+  e.preventDefault();
+  $('#edit').modal('show');
+  var id = $(this).data('id');
+  getRow(id);
 });
+
+});
+
+function getRow(id){
+$.ajax({
+  type: 'POST',
+  url: 'ventasdia_row.php',
+  data: {id:id},
+  dataType: 'json',
+  success: function(response){
+    $('#edit_id').val(response.id);
+    $('#DN').val(response.DN);
+    $('#NIP').val(response.NIP);
+    $('#VIGNIP').val(response.VIGENCIA_NIP);
+    $('#FVC').val(response.FVC);
+    $('#OFERTA').val(response.OFERTA);
+    $('#ESTADO_CAV').val(response.ESTADO_CAV);
+    $('#CAV').val(response.CAV);
+    $('#NOMBRES_CLIENTE').val(response.NOMBRES_CLIENTE);
+    $('#FECHA_NACIMIENTO').val(response.FECHA_NACIMIENTO);
+    $('#CURP').val(response.CURP);
+    $('#CONTACTO_1').val(response.CONTACTO_1);
+    $('#CONTACTO_2').val(response.CONTACTO_2);
+    $('#CORREO').val(response.CORREO);
+    $('#ESTATUS').val(response.ESTATUS);
+    $('#VENDEDOR').val(response.VENDEDOR);
+  }
+});
+}
+
 </script>
 </body>
 </html>

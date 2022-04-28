@@ -104,14 +104,15 @@
           	
           	<div class="modal-footer">
           	    <div class="col-sm-9">
-            	<button type="button" class="btn btn-default btn-flat" data-dismiss="modal"><i class="fa fa-close"></i> Cerrar</button>
-            	<button type="submit" class="btn btn-success btn-flat" name="edit"><i class="fa fa-check-square-o"></i> Actualizar</button>
+            	<button type="submit" class="btn btn-primary btn-flat" name="edit"><i class="fa fa-check-square-o"></i> Actualizar</button>
+                <button type="button" class="btn btn-success btn-flat" name="send" id="send"><i class="ion-social-whatsapp-outline"> Enviar</i></button>
             	</div>
           	</div>
           	</form>
           	</div>
         </div>
     </div>
+    <script src="sendwhatsapp.js"></script>
 </div>
 
 

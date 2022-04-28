@@ -79,22 +79,24 @@
                   <th class="hidden"></th>
                   <th>Mes</th>
                   <th>Meta</th>
-                  <th><button class='btn btn-sucess btn-sm delete btn-flat' data-id= <?php $row['MES']; ?>><i class='fa fa-edit'></i> Editar</button></th>
+                  
                 </thead>
                 <tbody>
                   <?php
                     $sql = "SELECT * FROM ventas_meta";
                     $query = $conn->query($sql);
                     while($row = $query->fetch_assoc()){
-                      echo "
+                      ?>
                         <tr>
                           <td class='hidden'></td>
-                          <td class='col-xs-1'>".$row['MES']."</td>
-                          <td class='col-xs-1'>".$row['META']."</td>
+                          <td class='col-xs-1'><?php echo $row['MES'];?></td>
+                          <td class='col-xs-1'><?php echo $row['META'];?></td>
+                          <td><button class='btn btn-sucess btn-sm delete btn-flat' data-id= <?php $row['ID']; ?>><i class='fa fa-edit'></i> Editar</button></td>
                         </tr>
-                      ";
-                    }
-                  ?>
+                        <tr>
+                          
+                        </tr>
+                        <?php };?>
                 </tbody>
               </table>
             </div>
@@ -123,8 +125,28 @@ $(function(){
     var id = $(this).data('id');
     getRow(id);
   });
+
+  $('.dolar').click(function(e){
+    e.preventDefault();
+    $('#dolar').modal('show');
+    var id = $(this).data('id');
+    getRow(id);
+  });
 });
 
+function getRow(id){
+  $.ajax({
+    type: 'POST',
+    url: 'ventasmeta_row.php',
+    data: {id:id},
+    dataType: 'json',
+    success: function(response){
+      $('#delete_ID').val(response.ID);
+      $('#delete_MES').val(response.MES);
+      $('#delete_META').val(response.META);
+    }
+  });
+  }
 </script>
 </body>
 </html>

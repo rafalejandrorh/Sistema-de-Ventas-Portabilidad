@@ -1,6 +1,6 @@
 <?php
 	header('content-type:application/xls');
-	header('content-Disposition: attachment; filename=Ventascargadas.xls');
+	header('content-Disposition: attachment; filename=Ventascargadas_RedesBPVNZ.xls');
 
 	include 'includes/session.php';
 	include 'includes/conn.php';

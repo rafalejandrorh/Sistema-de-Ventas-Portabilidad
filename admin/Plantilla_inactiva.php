@@ -58,14 +58,14 @@
               <div class="box-body">
                 <table id="example1" class="table table-bordered table-striped">
                   <thead>
-                    <th>Cédula</th>
+                  <th>CEDULA</th>
                     <th class="col-xs-3">RAC</th>
-                    <th class="col-xs-1">Fecha de Ingreso</th>
-                    <th class="col-xs-1">Número de Contacto</th>
-                    <th>Correo</th>
-                    <th>Residencia</th>
-                    <th>Equipos Tecnológicos</th>
-                    <th>Acción</th>
+                    <th class="col-xs-1">FECHA INGRESO</th>
+                    <th class="col-xs-1">N° CONTACTO</th>
+                    <th>CORREO</th>
+                    <th>RESIDENCIA</th>
+                    <th>EQUIPOS TECNOLÓGICOS</th>
+                    <th>ACCIÓN</th>
                   </thead>
                   <tbody>
                         <?php

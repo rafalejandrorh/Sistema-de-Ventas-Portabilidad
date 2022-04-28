@@ -1,11 +1,13 @@
 <?php
 	include 'includes/session.php';
 
-	if(isset($_POST['edit'])){
-		$id = $_POST['id'];
-		$rate_dolar = $_POST['rate_dolar'];
+	if(isset($_POST['actualizar'])){
 
-		$sql = "UPDATE tasa_dolar SET rate_dolar = '$rate_dolar' WHERE id = '$id'";
+		$string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+        $json = json_decode($string, true);
+        $dolarbcv = $json["USD"]["promedio_real"];
+
+		$sql = "UPDATE tasa_dolar SET rate_dolar = '$dolarbcv' WHERE id = 1";
 		if($conn->query($sql)){
 			$_SESSION['success'] = 'Tasa del dólar modificada satisfactoriamente';
 		}

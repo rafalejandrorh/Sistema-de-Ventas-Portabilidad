@@ -66,7 +66,7 @@
                     <th class="">ALTAS</th>
                     <th class="">MONTO TOTAL</th>
                     <th class="">MONTO BS</th>
-                    <th class="">TASA BS</th>
+                    <th class="">TASA DÓLAR BCV</th>
                   </thead>
                   <tbody>
                         <?php
@@ -74,13 +74,23 @@
                         $sql="SELECT * from Calculo_Comisiones_Admin";
                         $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
+
+                            //$sql2="SELECT *, rate_dolar from tasa_dolar";;
+                            //$query2 = $conn->query($sql2);
+                            //$dolarbcv = $query2 ->fetch_assoc();  
+
+                            $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                            $json = json_decode($string, TRUE);
+                            $dolarbcv = $json["USD"]["promedio_real"];
+
+                            $monto_bs = $row['MONTO_TOTAL'] * $dolarbcv;//['rate_dolar'];
                         ?>
                         <tr>
                             <td><?php echo $row['ADMINISTRATIVO']; ?></td>
                             <td><?php echo $row['ALTAS']; ?></td>
-                            <td><?php echo $row['MONTO_TOTAL']; ?></td>
-                            <td><?php echo $row['MONTO_BS']; ?></td>
-                            <td><?php echo $row['TASA_BS']; ?></td>       
+                            <td><?php echo '$ '.number_format($row['MONTO_TOTAL'],2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($monto_bs,2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($dolarbcv,2); ?></td>       
                         </tr>
                         <?php
                         }?>

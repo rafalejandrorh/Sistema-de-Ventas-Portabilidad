@@ -10,7 +10,7 @@
     <section class="content-header">
       <h1><b>Tasa del Dolar</b></h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
+        <li><a href="#"><i class=""></i> Administración</a></li>
         <li class="active">Tasa del Dolar</li>
       </ol>
     </section>
@@ -45,25 +45,24 @@
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th class="hidden"></th>
-                  <th>ID Tasa del Dolar</th>
                   <th>Tasa del Dolar</th>
                 </thead>
                 <tbody>
                   <?php
-                    $sql = "SELECT * FROM tasa_dolar";
-                    $query = $conn->query($sql);
-                    while($row = $query->fetch_assoc()){
+                    //$sql = "SELECT * FROM tasa_dolar";
+                    //$query = $conn->query($sql);
+
+                    $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                    $dolarbcv = json_decode($string, true);
+
+                    //while($row = $query->fetch_assoc()){
                       echo "
                         <tr>
                           <td class='hidden'></td>
-                          <td>".$row['id']."</td>
-                          <td>".'Bs '.$row['rate_dolar']."</td>
-                          <td>
-                            <button class='btn btn-success btn-sm btn-flat edit' data-id='".$row['rate_dolar']."'><i class='fa fa-edit'></i> Editar</button>
-                          </td>
+                          <td>".'$ 1.00'." = ".'Bs '.$dolarbcv["USD"]["promedio_real"]."</td>
                         </tr>
                       ";
-                    }
+                    //}
                   ?>
                 </tbody>
               </table>
@@ -87,32 +86,19 @@ $(function(){
     getRow(id);
   });
 
-  $('.delete').click(function(e){
-    e.preventDefault();
-    $('#delete').modal('show');
-    var id = $(this).data('id');
-    getRow(id);
-  });
-});
 
 function getRow(id){
   $.ajax({
     type: 'POST',
-    url: 'asistencia_row.php',
+    url: 'tasa_dolar_row.php',
     data: {id:id},
     dataType: 'json',
     success: function(response){
-      $('#datepicker_edit').val(response.date);
-      $('#attendance_date').html(response.date);
-      $('#edit_time_in').val(response.time_in);
-      $('#edit_time_out').val(response.time_out);
-      $('#attid').val(response.attid);
-      $('#employee_name').html(response.firstname+' '+response.lastname);
-      $('#del_attid').val(response.attid);
-      $('#del_employee_name').html(response.firstname+' '+response.lastname);
-    }
-  });
-}
+      $('#attid').val(response.id);
+      $('#rate_dolar').val(response.rate_dolar);
+
+  }});
+}})
 </script>
 </body>
 </html>

@@ -49,7 +49,7 @@
       ?>
       <div class="row">
       <div class="col-lg-3 col-xs-6">
-          <div class="small-box bg-green">
+          <div class="small-box bg-blue">
             <div class="inner">
               <?php
                 $sql = "SELECT * FROM plantilla where ESTATUS=1";
@@ -66,33 +66,17 @@
             <a href="Plantilla_activa.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+        
         <div class="col-lg-3 col-xs-6">
-          <div class="small-box bg-blue">
+          <div class="small-box bg-green">
             <div class="inner">
               <?php
 
-                    $sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
-                    $rquery = $conn->query($sql2);
-                    $MES = $rquery->fetch_assoc();
-                    $MES2 = $MES['MES_VENTAS'];
+                $sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
+                $rquery = $conn->query($sql2);
+                $MES = $rquery->fetch_assoc();
+                $MES2 = $MES['MES_VENTAS'];
 
-                   $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
-                   $query = $conn->query($sql);
- 
-                   echo "<h3>".$query->num_rows."</h3>";
-              ?>
-              <p>Total Ventas Mes</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-xs-6">
-          <div class="small-box bg-orange">
-            <div class="inner">
-              <?php
                 $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
                 $query = $conn->query($sql);
                 $total = $query->num_rows;
@@ -120,8 +104,106 @@
             <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+
+        <div class="col-lg-3 col-xs-6">
+          <div class="small-box bg-orange">
+            <div class="inner">
+              <?php
+
+                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
+                $query = $conn->query($sql);
+                $total = $query->num_rows;
+
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'SIN ESTATUS' and MES = '$MES2'";
+                $query = $conn->query($sql);
+                $sinestatus = $query->num_rows;
+
+                $percentage = ($sinestatus/$total)*100;
+
+                echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
+              ?>
+          
+              <p>Porcentaje Sin Estatus</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-red">
+            <div class="inner">
+              <?php
+
+                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
+                $query = $conn->query($sql);
+                $total = $query->num_rows;
+
+                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'BAJA/EXPORTADA' and MES = '$MES2'";
+                $query = $conn->query($sql);
+                $sinestatus = $query->num_rows;
+
+                $percentage = ($sinestatus/$total)*100;
+
+                echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
+              ?>
+          
+              <p>Porcentaje Bajas</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-6">
+          <div class="small-box bg-blue">
+            <div class="inner">
+              <?php
+
+                    
+
+                   $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
+                   $query = $conn->query($sql);
+ 
+                   echo "<h3>".$query->num_rows."</h3>";
+              ?>
+              <p>Total Ventas Mes</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-3 col-xs-6">
+          <div class="small-box bg-green">
+            <div class="inner">
+              <?php
+
+                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2' AND ESTATUS_CM = 'ALTA'";
+                $query = $conn->query($sql);
+
+                echo "<h3>".$query->num_rows."</h3>"
+              ?>
+
+              <p>Ventas Altas</p>
+            </div>
+            <div class="icon">
+              <i class="ion-arrow-graph-up-right"></i>
+            </div>
+            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      
+
+      <div class="col-lg-3 col-xs-6">
+          <div class="small-box bg-orange">
             <div class="inner">
               <?php
 
@@ -139,8 +221,29 @@
             <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-      </div>
       
+      <div class="col-lg-3 col-xs-6">
+          <div class="small-box bg-red">
+            <div class="inner">
+              <?php
+
+                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2' AND ESTATUS_CM = 'BAJA/EXPORTADA'";
+                $query = $conn->query($sql);
+
+                echo "<h3>".$query->num_rows."</h3>"
+              ?>
+
+              <p>Bajas Exportadas</p>
+            </div>
+            <div class="icon">
+              <i class="ion-arrow-graph-down-right"></i>
+            </div>
+            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
+        </div>
+
       <div class="row">
         <div class="col-xs-12">
           <div class="box">
@@ -157,15 +260,16 @@
             <div class="box-body">
             <table id="example2" class="table table-bordered">
                   <thead>
+                    <th class="">ACCIÓN</th>
                     <th class="">DN</th>
                     <th class="">NIP</th>
-                    <th class="">ESTADO CAV</th>
+                    <th class="">ESTADO</th>
                     <th class="">CURP</th>
-                    <th>NOMBRES</th>
-                    <th class="">VENDEDOR</th>
+                    <th class="">CLIENTE</th>
+                    <th class="">RAC</th>
                     <th class="">ESTATUS</th>
                     <th class="">FVC</th>
-                    <th class="">ACCIÓN</th>
+                    <th class="">HORA</th>
                   </thead>
                   <tbody>
                         <?php
@@ -177,6 +281,10 @@
                             while($row = $query->fetch_assoc()){
                         ?>
                         <tr>
+                            <td>
+                            <button class='btn btn-secundary btn-sm edit btn-flat' data-id="<?php echo $row['id']; ?>"><i class="fa fa-edit"></i></button> 
+                            <button class="btn btn-secundary btn-sm delete btn-flat" data-id="<?php echo $row['id']; ?>"><i class="fa fa-trash"></i></button> 
+                            </td>  
                             <td><?php echo $row['DN']; ?></td>
                             <td><?php echo $row['NIP']; ?></td>
                             <td><?php echo $row['ESTADO_CAV']; ?></td>
@@ -185,10 +293,65 @@
                             <td><?php echo $row['VENDEDOR']; ?></td>
                             <td><?php echo $row['ESTATUS']; ?></td>
                             <td><?php echo $row['FVC']; ?></td>
-                            <td>
-                            <button class='btn btn-secundary btn-sm edit btn-flat' data-id="<?php echo $row['id']; ?>"><i class="fa fa-edit"></i></button>
-                            <button class="btn btn-secundary btn-sm delete btn-flat" data-id="<?php echo $row['id']; ?>"><i class="fa fa-trash"></i></button>
-                            </td>         
+                            <td><?php echo $row['INTERVALO']; ?></td>  
+                        </tr>
+                        <?php
+                        }?>
+                        </tbody>
+                        </table>
+
+                      </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header with-border">
+            <h3 class="box-title"><b>Ventas del día por RAC</b></h3>
+              <div class="box-tools pull-right">
+                <form class="form-inline">
+                  <div class="form-group">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="table-responsive">
+            <div class="box-body">
+            <table id="example2" class="table table-bordered">
+                  <thead>
+                    <th class="col-sm-4">RAC</th>
+                    <th class="col-sm-3">VENTAS ENVIADAS</th>
+                    <th class="col-sm-3">VENTAS CARGADAS</th>
+                    <th class="col-sm-2">SPH</th>
+                  </thead>
+                  <tbody>
+                        <?php
+                        date_default_timezone_set('America/Caracas');
+
+                        $sql = "SELECT * FROM plantilla where ESTATUS=1";
+                        $query = $conn->query($sql);
+
+                        //echo "<h3>".$query->num_rows."</h3>";
+
+                            while($row = $query->fetch_assoc()){
+
+                              $Date = date('Y-m-d');
+
+                              $sql2="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date' AND VENDEDOR = '$row[RAC]'";
+                              $query2 = $conn->query($sql2);
+                              
+                              $sql3="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date' AND VENDEDOR = '$row[RAC]' AND ESTATUS = 'LISTA ONIX'";
+                              $query3 = $conn->query($sql3);
+                              $sph = $query3->num_rows/7;
+                        ?>
+                        <tr>
+                            <td><?php echo $row['RAC']; ?></td>
+                            <td><?php echo $query2->num_rows; ?></td>
+                            <td><?php echo $query3->num_rows; ?></td>
+                            <td><?php echo number_format($sph,2); ?></td>
                         </tr>
                         <?php
                         }?>
@@ -241,6 +404,7 @@
                      
       </section>
     </div>
+
     <footer>
   	<?php include 'includes/footer.php'; ?>
     </footer>

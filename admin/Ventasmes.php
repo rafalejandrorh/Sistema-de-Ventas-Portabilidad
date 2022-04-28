@@ -50,18 +50,19 @@
           <div class="col-xs-12">
             <div class="box">
               <div class="box-header with-border">
-                <div>
-                <h3><?php $sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
-                        $rquery = $conn->query($sql2);
+                <div class="pull-left">
+                <?php $sql3="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
+                        $rquery = $conn->query($sql3);
                         $MES = $rquery->fetch_assoc();
                         $MES2 = $MES['MES_VENTAS']; 
-                        echo $MES2;?></h3>
+                ?>
+              <h3><b><?php echo $MES2; ?></b></h3>
               </div>
               <div class="pull-right">
               <form method="POST" class="form-inline" id="payForm">
                   <div class="input-group">
                     <input type="hidden" class="form-control pull-right col-sm-8" name="date_range" value="<?php $sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
-                        $rquery = $conn->query($sql2);
+                        $rquery = $conn->query($sql3);
                         $MES = $rquery->fetch_assoc();
                         $MES2 = $MES['MES_VENTAS']; echo $MES2 ?>">
                   </div>  
@@ -95,19 +96,20 @@
                         $sql="SELECT * from ventastotales WHERE MES = '$MES2'";
                         $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
-                        echo "
+                        ?>
                         <tr>
-                            <td>".$row['DN']."</td>
-                            <td>".$row['NIP']."</td>
-                            <td>".$row['ESTADO_CAV']."</td>
-                            <td>".$row['CURP']."</td>
-                            <td>".$row['VENDEDOR']."</td>
-                            <td>".$row['FECHA_CARGA']."</td>
-                            <td>".$row['ESTATUS']."</td>
-                            <td>".$row['FVC']."</td>
-                            <td>".$row['ESTATUS_CM']."</td>
+                            <td><?php echo $row['DN']; ?></td>
+                            <td><?php echo $row['NIP']; ?></td>
+                            <td><?php echo $row['ESTADO_CAV']; ?></td>
+                            <td><?php echo $row['CURP']; ?></td>
+                            <td><?php echo $row['VENDEDOR']; ?></td>
+                            <td><?php echo $row['FECHA_CARGA']; ?></td>
+                            <td><?php echo $row['ESTATUS']; ?></td>
+                            <td><?php echo $row['FVC']; ?></td>
+                            <td><?php echo $row['ESTATUS_CM']; ?></td>       
                         </tr>
-                        ";}?>
+                        <?php
+                        ;}?>
                         </tbody>
                         </table>
                   </div>

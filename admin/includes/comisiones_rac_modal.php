@@ -22,7 +22,7 @@
 
                     <label for="pago" class="col-sm-3 control-label">Pago</label>
                     <div class="col-sm-9">   
-                    <select name="pago" id="PAGO" type="number" class="form-control">
+                    <select name="pago" id="PAGO" type="text" class="form-control">
                         <option value="" selected>- Asigna estatus de Pago -</option>
                         <option value="PENDIENTE">Pendiente</option>
                         <option value="PAGO REALIZADO">Pago Realizado</option>
