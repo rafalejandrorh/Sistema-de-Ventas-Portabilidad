@@ -107,14 +107,14 @@
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">DN a portar:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="dn" placeholder="DN" required>
+                    <input type="text" class="form-control" name="dn" placeholder="DN" required maxlength="10">
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">NIP:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="nip" placeholder="NIP" required>
+                    <input type="text" class="form-control" name="nip" placeholder="NIP" required maxlength="4">
                     </div>
                     </div>
                     
@@ -208,28 +208,28 @@
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">CURP:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="curp" placeholder="CURP" required>
+                    <input type="text" class="form-control" name="curp" placeholder="CURP" required maxlength="18">
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Número Contacto 1:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="contacto1"required>
+                    <input type="text" class="form-control" name="contacto1"required maxlength="10">
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Número de Contacto 2:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="contacto2" required>
+                    <input type="text" class="form-control" name="contacto2" required maxlength="10">
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Correo:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="correo" value="" required>
+                    <input type="email" class="form-control" name="correo" value="" required>
                     </div>
                     </div>
                     
