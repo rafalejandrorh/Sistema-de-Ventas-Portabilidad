@@ -46,10 +46,21 @@
       responsive: true
     })
     $('#example2').DataTable({
+
+    })
+    $('#example3').DataTable({
+
+    })
+    $('#example4').DataTable({
+
+    })
+    $('#example5').DataTable({
+
+    })
+    $('#example6').DataTable({
       'paging'      : true,
       'lengthChange': true,
       'searching'   : true,
-      'ordering'    : true,
       'info'        : true,
       'autoWidth'   : true
     })

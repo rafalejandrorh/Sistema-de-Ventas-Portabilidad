@@ -102,6 +102,63 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header with-border">
+              <div class="box-tools pull-right">
+                <form class="form-inline">
+                  <div class="form-group">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="table-responsive">
+            <div class="box-body">
+            <table id="example1" class="table table-bordered">
+                  <thead>
+                    <th class="">ADMINISTRATIVO</th>
+                    <th class="">ALTAS</th>
+                    <th class="">MONTO TOTAL</th>
+                    <th class="">MONTO BS</th>
+                    <th class="">TASA DÓLAR BCV</th>
+                  </thead>
+                  <tbody>
+                        <?php
+                       
+                        $sql="SELECT * from Calculo_Comisiones_Admin2";
+                        $query = $conn->query($sql);
+                            while($row = $query->fetch_assoc()){
+
+                            //$sql2="SELECT *, rate_dolar from tasa_dolar";;
+                            //$query2 = $conn->query($sql2);
+                            //$dolarbcv = $query2 ->fetch_assoc();  
+
+                            $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                            $json = json_decode($string, TRUE);
+                            $dolarbcv = $json["USD"]["promedio_real"];
+
+                            $monto_bs = $row['MONTO_TOTAL'] * $dolarbcv;//['rate_dolar'];
+                        ?>
+                        <tr>
+                            <td><?php echo $row['ADMINISTRATIVO']; ?></td>
+                            <td><?php echo $row['ALTAS']; ?></td>
+                            <td><?php echo '$ '.number_format($row['MONTO_TOTAL'],2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($monto_bs,2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($dolarbcv,2); ?></td>       
+                        </tr>
+                        <?php
+                        }?>
+                        </tbody>
+                        </table>
+
+                      </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
       </div>  
         </div>
       </div>

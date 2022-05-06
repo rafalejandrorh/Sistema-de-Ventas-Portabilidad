@@ -134,7 +134,7 @@
                   <tbody>
                         <?php
                         
-                            $sql="SELECT * from Calculo_Comisiones";
+                            $sql="SELECT * from Calculo_Comisiones_second";
                             $query = $conn->query($sql);
                             while($row = $query->fetch_assoc()){
 
@@ -188,7 +188,7 @@
     
 </div>
 
-<?php include 'includes/comisiones_rac_modal.php'; ?>
+<?php include 'includes/comisiones_rac_modal2.php'; ?>
 
 <script>
 $(function(){
@@ -211,7 +211,7 @@ $(function(){
   function getRow(id){
   $.ajax({
     type: 'POST',
-    url: 'comisiones_rac_row.php',
+    url: 'comisiones_rac_row2.php',
     data: {id:id},
     dataType: 'json',
     success: function(response){

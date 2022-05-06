@@ -91,6 +91,7 @@
                     		<select type="text" class="form-control" id="ESTATUS" name="ESTATUS">
                             <option value="" selected>- Asigna un Estatus -</option>
                             <option value="EN ESPERA">En Espera</option>
+                            <option value="ENVIADA">Enviada (Esperando respuesta)</option>
                             <option value="LISTA ONIX">Lista Onix</option>
                             <option value="GOPC TLMK">Gestionada por otro Call en TLMK</option>
                             <option value="PIN INCORRECTO">PIN Incorrecto</option>

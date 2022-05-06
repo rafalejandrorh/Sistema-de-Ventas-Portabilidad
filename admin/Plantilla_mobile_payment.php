@@ -55,7 +55,7 @@
               <!-- /.card-header -->
               <div class="table-responsive">
               <div class="box-body">
-                <table id="example2" class="table table-bordered">
+                <table id="" class="table table-bordered">
                   <thead>
                     <th>CEDULA</th>
                     <th>RAC</th>
@@ -78,7 +78,7 @@
                             <td><?php echo $row['CEDULA_TITULAR'];?></td>
                             <td><?php echo $row['NOMBRE_TITULAR'];?></td>
                             <td>
-                                <button class="btn btn-success btn-sm edit btn-flat" data-id="<?php echo $row['cedid']; ?>"><i class="fa fa-edit"></i> Editar</button>
+                                <button class="btn btn-success btn-sm  btn-flat" data-id="<?php echo $row['cedid']; ?>"><i class="fa fa-edit"></i> Editar</button>
                             </td>
                         </tr>
                         <?php } ?>
@@ -122,9 +122,6 @@ function getRow(id){
     data: {id:id},
     dataType: 'json',
     success: function(response){
-      $('.cedid').val(response.cedid);
-      $('.employee_id').html(response.employee_id);
-      $('.del_employee_name').html(response.RAC);
       $('#cedid').val(response.cedid);
       $('#ingreso').val(response.FECHA_INGRESO);
       $('#RAC').val(response.RAC);

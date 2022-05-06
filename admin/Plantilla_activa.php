@@ -56,7 +56,13 @@
               <!-- /.card-header -->
               <div class="table-responsive">
               <div class="box-body">
-                <table id="example1" class="table table-bordered">
+                  <!--<div class="styles_search__3Kri6">
+                      <label class="search-label">
+                          <span class="sr-only"></span>
+                          <input class="form-control">
+                      </label>
+                  </div>-->
+                <table id="" class="table table-bordered">
                   <thead>
                     <th>CEDULA</th>
                     <th class="col-xs-3">RAC</th>

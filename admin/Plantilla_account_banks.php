@@ -55,7 +55,7 @@
               <!-- /.card-header -->
               <div class="table-responsive">
               <div class="box-body">
-                <table id="example2" class="table table-bordered">
+                <table id="" class="table table-bordered">
                   <thead>
                     <th>CEDULA</th>
                     <th>RAC</th>

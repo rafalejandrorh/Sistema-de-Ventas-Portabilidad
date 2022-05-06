@@ -61,10 +61,6 @@
                   <!--<div align="center">
                   <h3><b>Recuerda probar nuestra nueva funcionalidad. Al terminar el ingreso de tu venta, dirígete al Dashboard y en el apartado de tus ventas del día tendrás un botón para enviar la Venta por WhatsApp a tu Supervisor.</b></h3>
                   </div>-->
-                  <h3 class="box-title"><b>IMPORTANTE:</b></h3>
-                  <div align="center">
-                    <h3><b> A partir de este momento TODAS las ventas tendrán FVC para Mayo; debido a que Telefónica está presentando fallas con ONIX y no permite ingresar ventas para Abril.</b></h3>
-                  </div>
                 </div>
             <div class="box-body">
     	          <h4 class="login-box-msg">Ingresa los datos de tu Venta 😎</h4>
@@ -107,14 +103,14 @@
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">DN a portar:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="dn" placeholder="DN" required maxlength="10">
+                    <input type="text" class="form-control" name="dn" placeholder="DN" maxlength="10" required>
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">NIP:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="nip" placeholder="NIP" required maxlength="4">
+                    <input type="text" class="form-control" name="nip" placeholder="NIP" maxlength="4" required>
                     </div>
                     </div>
                     
@@ -208,28 +204,28 @@
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">CURP:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="curp" placeholder="CURP" required maxlength="18">
+                    <input type="text" class="form-control" name="curp" placeholder="CURP" maxlength="18" required>
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Número Contacto 1:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="contacto1"required maxlength="10">
+                    <input type="text" class="form-control" name="contacto1" maxlength="10" required>
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Número de Contacto 2:</label>
                     <div class="col-sm-6">
-                    <input type="text" class="form-control" name="contacto2" required maxlength="10">
+                    <input type="text" class="form-control" name="contacto2" maxlength="10" required>
                     </div>
                     </div>
                     
                     <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">Correo:</label>
                     <div class="col-sm-6">
-                    <input type="email" class="form-control" name="correo" value="" required>
+                    <input type="text" class="form-control" name="correo" value="" required>
                     </div>
                     </div>
                     

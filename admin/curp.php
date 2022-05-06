@@ -62,10 +62,10 @@
             </div>
             <div class="table-responsive">
             <div class="box-body">
-            <h2 class=""><b>CURP (Sinube)</b></h2>
+            <h2 class=""><b>CURP</b></h2>
             <h4><b><a href="https://www.gob.mx/curp/" target="_blank">Recuerda validar la CURP en RENAPO. Haz click aquí para ir al sitio.</a></b></h4>
             <br>
-            <iframe  width="100%" height="600px" src="https://www.sinube.mx/calcula-tu-rfc-y-curp" frameborder="0"></iframe>
+            <h4><b><a href="https://www.sinube.mx/calcula-tu-rfc-y-curp/" target="_blank">Acá puedes calcular la Clave CURP para posteriormente validarla en RENAPO. Haz click aquí para ir al sitio.</a></b></h4>
               <br>
             </div> 
             </div>

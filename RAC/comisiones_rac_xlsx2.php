@@ -2,14 +2,13 @@
 	include 'includes/session.php';
 	include 'includes/conn.php';
 	
-	$sql2 = "SELECT * from fecha_comisiones WHERE ID = 1";
+	header('content-type:application/xls');
+	header('content-Disposition: attachment; filename=Comisiones_RAC_'.$user['RAC'].'_RedesVNZ.xls');
+?>
+		<?php $sql2 = "SELECT * from fecha_comisiones WHERE ID = 2";
                   $query2 = $conn->query($sql2);
                   $row2 = $query2->fetch_assoc();
-                  
-	header('content-type:application/xls');
-	header('content-Disposition: attachment; filename=Comisiones_RAC_'.$user['RAC'].'_RedesVNZ_'.$row2['DESDE'].'-'.$row2['HASTA'].'.xls');
-?>
-
+              ?>
               <h2><b>Semana del <?php echo $from = $row2['DESDE'];?> al <?php echo $from = $row2['HASTA'];?></b></h2>
 		<table>
 		<thead>
@@ -79,7 +78,7 @@
 			<tbody>
 				<?php
 
-				$sql2 = "SELECT * from fecha_comisiones WHERE ID = 1";
+				$sql2 = "SELECT * from fecha_comisiones WHERE ID = 2";
 				$query2 = $conn->query($sql2);
 				$row2 = $query2->fetch_assoc();
 
@@ -122,12 +121,6 @@
 			</thead>
 			<tbody>
 			<?php
-					$sql2 = "SELECT * from fecha_comisiones WHERE ID = 1";
-					$query2 = $conn->query($sql2);
-					$row2 = $query2->fetch_assoc();
-
-					$from = $row2['DESDE'];
-					$to = $row2['HASTA'];
 
 					$sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
 					$rquery = $conn->query($sql2);
@@ -170,12 +163,6 @@
 			</thead>
 			<tbody>
 			<?php
-					$sql2 = "SELECT * from fecha_comisiones WHERE ID = 1";
-					$query2 = $conn->query($sql2);
-					$row2 = $query2->fetch_assoc();
-
-					$from = $row2['DESDE'];
-					$to = $row2['HASTA'];
 
 					$sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
 					$rquery = $conn->query($sql2);

@@ -9,7 +9,7 @@
             	<h4 class="modal-title"><b><B>Actualización de Pago</B></b></h4>
           	</div>
           	<div class="modal-body">
-            	<form class="form-horizontal" method="POST" action="comisiones_rac_edit.php">
+            	<form class="form-horizontal" method="POST" action="comisiones_rac_edit2.php">
             		<input type="hidden" id="RAC" name="rac">
                     <div class="text-center">
 	                	<h4 id="RAC" class="bold"></h4>
@@ -39,3 +39,4 @@
         </div>
     </div>
 </div>
+

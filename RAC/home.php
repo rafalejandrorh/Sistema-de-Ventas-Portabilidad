@@ -51,7 +51,7 @@
           <div class="small-box bg-purple">
             <div class="inner">
               <?php
-                $sql = "SELECT * FROM ventastotales where cedula= '".$_SESSION['user']."'";
+                $sql = "SELECT * FROM ventastotales where cedula = '".$_SESSION['user']."'";
                 $query = $conn->query($sql);
 
                 echo "<h3>".$query->num_rows."</h3>";
@@ -180,23 +180,15 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
-              <h2 class="box-title"><b>IMPORTANTE:</b></h2>
+              <!--<h2 class="box-title"><b>IMPORTANTE:</b></h2>-->
             </div>
             <div class="table-responsive">
             <div class="box-body">
             <!--<div class="text-center">
               <h3><b>Recuerda usar la nueva funcionalidad. Al terminar el ingreso de tu venta, dirígete al apartado que se encuentra abajo de este mensaje haz click en el botón para enviar la Venta por WhatsApp a tu Supervisor.</b></h3>
             </div>-->
-            <div align="center">
-              <h3><b> A partir de este momento TODAS las ventas tendrán FVC para Mayo; debido a que Telefónica está presentando fallas con ONIX y no permite ingresar ventas para Abril.</b></h3>
-            </div>
              </div>
-              </div>
-              
-              <div class="table-responsive">
-            <div class="box-body">     
-             </div>
-              </div>
+              </div>        
 
             </div>
           </div>

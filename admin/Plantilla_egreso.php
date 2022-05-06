@@ -55,7 +55,7 @@
               <!-- /.card-header -->
               <div class="table-responsive">
               <div class="box-body">
-                <table id="example1" class="table table-bordered table-striped">
+                <table id="" class="table table-bordered table-striped">
                   <thead>
                   <th>CEDULA</th>
                     <th class="col-xs-3">RAC</th>
@@ -78,6 +78,7 @@
                             <td><?php echo $row['CONTACTO'];?></td>
                             <td><?php echo $row['CORREO'];?></td>
                             <td><?php echo $row['RESIDENCIA'];?></td>
+                            <td><?php echo $row['EQUIPOS'];?></td>
                             <td>
                                 <button class="btn btn-success btn-sm edit btn-flat" data-id="<?php echo $row['cedid']; ?>"><i class="fa fa-edit"></i> Editar</button>
                                 <button class="btn btn-danger btn-sm delete btn-flat" data-id="<?php echo $row['cedid']; ?>"><i class="fa fa-trash"></i> Eliminar</button>

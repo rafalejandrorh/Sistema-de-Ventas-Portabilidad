@@ -6057,3 +6057,506 @@ Stack trace:
 [28-Apr-2022 17:30:31 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
 [28-Apr-2022 17:43:08 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
 [28-Apr-2022 17:43:08 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 18:29:17 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[28-Apr-2022 19:05:02 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 19:05:02 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 19:05:30 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 19:05:30 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 19:05:36 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[28-Apr-2022 19:05:36 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[29-Apr-2022 14:34:40 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 83
+[29-Apr-2022 14:34:40 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php:86
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 86
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[30-Apr-2022 12:10:53 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[30-Apr-2022 12:10:53 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'April'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[01-May-2022 15:20:02 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 83
+[01-May-2022 15:20:02 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php:86
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 86
+[01-May-2022 20:09:17 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 20:09:17 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 20:13:19 America/Caracas] PHP Parse error:  Unclosed '{' on line 38 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 42
+[01-May-2022 20:27:25 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 20:27:25 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 21:57:37 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[01-May-2022 21:57:37 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[01-May-2022 22:45:07 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[01-May-2022 22:45:07 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'April'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[01-May-2022 22:45:35 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[01-May-2022 22:45:35 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[01-May-2022 23:22:29 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 23:22:29 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 327
+[01-May-2022 23:23:18 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:18 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:19 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:19 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:21 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:21 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 324
+[01-May-2022 23:23:37 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 320
+[01-May-2022 23:23:37 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 320
+[01-May-2022 23:23:50 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 315
+[01-May-2022 23:23:50 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 315
+[01-May-2022 23:24:14 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 316
+[01-May-2022 23:24:14 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 316
+[01-May-2022 23:24:27 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 316
+[01-May-2022 23:24:27 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 316
+[01-May-2022 23:24:28 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 317
+[01-May-2022 23:24:28 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 317
+[01-May-2022 23:24:41 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 314
+[01-May-2022 23:24:41 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 314
+[01-May-2022 23:24:42 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 314
+[01-May-2022 23:24:42 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 314
+[01-May-2022 23:28:06 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:28:06 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:33 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:33 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:36 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:36 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:37 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:29:37 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 571
+[01-May-2022 23:30:48 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 510
+[01-May-2022 23:30:48 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 510
+[01-May-2022 23:30:49 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 510
+[01-May-2022 23:30:49 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 510
+[01-May-2022 23:31:07 America/Caracas] PHP Parse error:  Unclosed '{' on line 354 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 362
+[01-May-2022 23:31:08 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 452
+[01-May-2022 23:31:08 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 452
+[01-May-2022 23:33:27 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:33:27 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:33:47 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 456
+[01-May-2022 23:33:47 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 456
+[01-May-2022 23:34:21 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 452
+[01-May-2022 23:34:21 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 452
+[01-May-2022 23:34:24 America/Caracas] PHP Parse error:  syntax error, unexpected string content "FEC", expecting "]" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 430
+[01-May-2022 23:34:25 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:34:25 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:34:33 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:34:33 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:34:36 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:34:36 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:34:41 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:34:41 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 454
+[01-May-2022 23:34:52 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:34:52 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:35:38 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 476
+[01-May-2022 23:35:38 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 476
+[01-May-2022 23:36:18 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 476
+[01-May-2022 23:36:18 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 476
+[01-May-2022 23:36:24 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 475
+[01-May-2022 23:36:24 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 475
+[01-May-2022 23:37:43 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:37:43 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:08 America/Caracas] PHP Parse error:  Unclosed '{' on line 442 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 453
+[01-May-2022 23:39:09 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:09 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:18 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:18 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:37 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:37 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:39 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:39 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:40 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:40 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:53 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:53 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:54 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:54 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:55 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:39:55 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 478
+[01-May-2022 23:43:59 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:43:59 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:44:00 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:44:00 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:46:40 America/Caracas] PHP Parse error:  syntax error, unexpected string content "includes/scripts" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 460
+[01-May-2022 23:46:41 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:46:41 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:46:43 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[01-May-2022 23:46:43 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[02-May-2022 08:14:13 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[02-May-2022 08:14:13 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'April'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[02-May-2022 08:31:38 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 10:57:59 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 09:57:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 78
+[02-May-2022 09:57:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 84
+[02-May-2022 09:57:59 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 91
+[02-May-2022 09:57:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 98
+[02-May-2022 11:00:16 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[02-May-2022 11:10:08 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[02-May-2022 11:10:08 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 11:46:35 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 83
+[02-May-2022 11:46:35 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php:86
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 86
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 77
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[02-May-2022 12:17:47 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[02-May-2022 12:21:39 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 13:13:06 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 12:13:06 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 78
+[02-May-2022 12:13:06 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 84
+[02-May-2022 12:13:06 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 91
+[02-May-2022 12:13:06 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 98
+[02-May-2022 13:17:50 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[02-May-2022 16:43:36 America/Caracas] PHP Warning:  Undefined variable $header in /home/enlacecc/public_html/Enlace_CC/RAC/formulario.php on line 66
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 83
+[02-May-2022 17:42:10 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php:86
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 86
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 17:42:10 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 83
+[02-May-2022 17:42:10 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php:86
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 86
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[02-May-2022 17:55:42 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[02-May-2022 17:55:42 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'May'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[02-May-2022 20:07:45 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[02-May-2022 20:07:45 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[03-May-2022 13:56:03 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[03-May-2022 13:56:03 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[03-May-2022 17:17:50 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[03-May-2022 17:17:50 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'May'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[03-May-2022 20:32:47 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[03-May-2022 19:32:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 78
+[03-May-2022 19:32:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 84
+[03-May-2022 19:32:48 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 91
+[03-May-2022 19:32:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasformulario.php on line 98
+[03-May-2022 20:33:30 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[03-May-2022 20:33:30 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 9
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 13
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/includes/session.php on line 17
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 16
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 21
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/navbar.php on line 22
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 16
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 23
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 30
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 37
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 44
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 56
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 65
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 77
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 89
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 97
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 105
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/enlacecc/public_html/Enlace_CC/RAC/includes/profile_modal.php on line 113
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 54
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 78
+[05-May-2022 11:21:20 America/Caracas] PHP Warning:  Undefined array key "user" in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 95
+[05-May-2022 11:21:20 America/Caracas] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MES_ALTA = 'May'' at line 1 in /home/enlacecc/public_html/Enlace_CC/RAC/home.php:96
+Stack trace:
+#0 /home/enlacecc/public_html/Enlace_CC/RAC/home.php(96): mysqli->query()
+#1 {main}
+  thrown in /home/enlacecc/public_html/Enlace_CC/RAC/home.php on line 96
+[05-May-2022 20:58:49 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[05-May-2022 20:58:49 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[05-May-2022 20:58:54 America/Caracas] PHP Warning:  include(includes/comisiones_rac_modal.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[05-May-2022 20:58:54 America/Caracas] PHP Warning:  include(): Failed opening 'includes/comisiones_rac_modal.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/comisiones_rac.php on line 464
+[05-May-2022 20:59:02 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[05-May-2022 20:59:02 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[05-May-2022 20:59:10 America/Caracas] PHP Warning:  include(includes/Footer.php): Failed to open stream: No such file or directory in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105
+[05-May-2022 20:59:10 America/Caracas] PHP Warning:  include(): Failed opening 'includes/Footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/enlacecc/public_html/Enlace_CC/RAC/Ventasmes.php on line 105

@@ -91,7 +91,15 @@
 
                 $earlytotal = $early + $early2;
 
-                $percentage = ($earlytotal/$total)*100;
+                if($earlytotal < 1){
+                
+                  $percentage = 0;
+                  
+                  }else{
+                      
+                  $percentage = ($earlytotal/$total)*100;
+                      
+                  }
 
                 echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
@@ -118,7 +126,15 @@
                 $query = $conn->query($sql);
                 $sinestatus = $query->num_rows;
 
-                $percentage = ($sinestatus/$total)*100;
+                if($sinestatus < 1){
+                
+                  $percentage = 0;
+                  
+                  }else{
+                      
+                  $percentage = ($sinestatus/$total)*100;
+                      
+                  }
 
                 echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
@@ -143,9 +159,17 @@
 
                 $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'BAJA/EXPORTADA' and MES = '$MES2'";
                 $query = $conn->query($sql);
-                $sinestatus = $query->num_rows;
+                $bajasexp = $query->num_rows;
 
-                $percentage = ($sinestatus/$total)*100;
+                if($bajasexp < 1){
+                
+                  $percentage = 0;
+                  
+                  }else{
+                      
+                  $percentage = ($bajasexp/$total)*100;
+                      
+                  }
 
                 echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
@@ -186,7 +210,7 @@
             <div class="inner">
               <?php
 
-                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2' AND ESTATUS_CM = 'ALTA'";
+                $sql = "SELECT * FROM ventastotales WHERE MES_ALTA = '$MES2' AND ESTATUS_CM = 'ALTA'";
                 $query = $conn->query($sql);
 
                 echo "<h3>".$query->num_rows."</h3>"
@@ -250,15 +274,14 @@
             <div class="box-header with-border">
             <h3 class="box-title"><b>Ventas del día</b></h3>
               <div class="box-tools pull-right">
-                <form class="form-inline">
-                  <div class="form-group">
-                  </div>
+              <form method="POST" class="form-inline" id="payForm">
+                  <button type="button" class="btn btn-success btn-sm btn-flat" id="payroll"><span class=""></span> Descargar en Excel</button>
                 </form>
               </div>
             </div>
             <div class="table-responsive">
             <div class="box-body">
-            <table id="example2" class="table table-bordered">
+            <table id="" class="table table-bordered">
                   <thead>
                     <th class="">ACCIÓN</th>
                     <th class="">DN</th>
@@ -320,7 +343,7 @@
             </div>
             <div class="table-responsive">
             <div class="box-body">
-            <table id="example2" class="table table-bordered">
+            <table id="" class="table table-bordered">
                   <thead>
                     <th class="col-sm-4">RAC</th>
                     <th class="col-sm-3">VENTAS ENVIADAS</th>
@@ -429,6 +452,12 @@ $(function(){
     $('#delete').modal('show');
     var id = $(this).data('id');
     getRow(id);
+  });
+
+  $('#payroll').click(function(e){
+    e.preventDefault();
+    $('#payForm').attr('action', 'ventasdia_xlsx.php');
+    $('#payForm').submit();
   });
 
 });
