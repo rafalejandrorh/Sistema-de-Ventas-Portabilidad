@@ -94,6 +94,7 @@
                             <option value="ENVIADA">Enviada (Esperando respuesta)</option>
                             <option value="LISTA ONIX">Lista Onix</option>
                             <option value="GOPC TLMK">Gestionada por otro Call en TLMK</option>
+                            <option value="GESTIONADA POR OTRO CALL">Gestionada por otro Call en Onix</option>
                             <option value="PIN INCORRECTO">PIN Incorrecto</option>
                             <option value="PIN EXPIRADO">PIN Expirado</option>
                             <option value="PIN INEXISTENTE">PIN Inexistente</option>

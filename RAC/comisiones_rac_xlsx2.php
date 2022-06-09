@@ -33,17 +33,17 @@
 
                             while($row = $query->fetch_assoc()){
 
-                            //$sql2="SELECT *, rate_dolar from tasa_dolar";;
-                            //$query2 = $conn->query($sql2);
-                            //$dolarbcv = $query2 ->fetch_assoc();
+                            $sql2="SELECT *, rate_dolar from tasa_dolar";;
+                            $query2 = $conn->query($sql2);
+                            $dolarbcv = $query2 ->fetch_assoc();
 
-                            $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                            /*$string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
                             $json = json_decode($string, TRUE);
-                            $dolarbcv = $json["USD"]["promedio_real"];
+                            $dolarbcv = $json["USD"]["promedio_real"];*/
 
                             $monto_a_cobrar = $row['ALTAS'] * $row['MONTO_ALTA'];  
 
-                            $monto_bs = $monto_a_cobrar * $dolarbcv;//['rate_dolar'];
+                            $monto_bs = $monto_a_cobrar * $dolarbcv['rate_dolar'];
                         ?>
                         <tr>
                             <td><?php echo $row['RAC']; ?></td>
@@ -51,7 +51,7 @@
                             <td><?php echo '$ '.$row['MONTO_ALTA']; ?></td>
                             <td><?php echo '$ '.number_format($monto_a_cobrar,2); ?></td>
                             <td><?php echo 'Bs.S '.number_format($monto_bs,2); ?></td>
-                            <td><?php echo 'Bs.S '.number_format($dolarbcv,2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($dolarbcv['rate_dolar'],2); ?></td>
                             <td><?php echo $row['NRO_REFERENCIA']; ?></td>
                             <td><?php echo $row['PAGO']; ?></td>
                             <td><?php echo $row['NRO_CUENTA']; ?></td>

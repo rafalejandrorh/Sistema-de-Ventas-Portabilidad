@@ -49,18 +49,13 @@
               <h2><b>Hora Venezuela:</b></h2>
     	        <h3 id="time"></h3>
               </div>
-              <!--<div class="pull-right">
-              <h2><b>Hora México (CDMX):</b></h2>
-              <?php date_default_timezone_set('America/Mexico_City'); 
-                        $Time = date('h:i:s A', Time()); 
-                        echo "<h3>".$Time."</h3>";
-                        ?>
-                        </div>-->
+
             </div>
             <div class="box-body">
-                  <!--<div align="center">
-                  <h3><b>Recuerda probar nuestra nueva funcionalidad. Al terminar el ingreso de tu venta, dirígete al Dashboard y en el apartado de tus ventas del día tendrás un botón para enviar la Venta por WhatsApp a tu Supervisor.</b></h3>
-                  </div>-->
+                  <div align="center">
+                  <h3><b>ATENCIÓN! A partir del 1ro de Junio se aplicará una modificación a las Ofertas Comerciales de 100 y 50$; para descargar el PDF ve al apartado Herramientas/Ofertas Vigentes del Menú. Cualquier duda, comunícate con tu Supervisor.</b></h3>
+                  <img src="../Resources/Oferta_junio.jpg" alt="" style="width:80%">
+                  </div>
                 </div>
             <div class="box-body">
     	          <h4 class="login-box-msg">Ingresa los datos de tu Venta 😎</h4>
@@ -280,7 +275,7 @@
   		}
   	?>
 </div>
-	
+<?php include 'includes/footer.php' ?>
 <?php include 'includes/scripts.php' ?>
 </body>
 </html>

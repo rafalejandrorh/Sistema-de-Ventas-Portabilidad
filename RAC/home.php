@@ -1,4 +1,5 @@
-  <?php include 'includes/session.php'; ?>
+<?php include 'includes/session.php'; ?>
+<?php include 'includes/conn.php'; ?>
 <?php 
   include '../timezone.php'; 
   $today = date('Y-m-d');
@@ -51,7 +52,7 @@
           <div class="small-box bg-purple">
             <div class="inner">
               <?php
-                $sql = "SELECT * FROM ventastotales where cedula = '".$_SESSION['user']."'";
+                $sql = "SELECT * FROM ventastotales where cedula ='".$_SESSION['user']."'";
                 $query = $conn->query($sql);
 
                 echo "<h3>".$query->num_rows."</h3>";
@@ -75,7 +76,7 @@
                   $MES = $rquery->fetch_assoc();
                   $MES2 = $MES['MES_VENTAS'];
                   
-                   $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2' AND cedula='".$_SESSION['user']."'";
+                   $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2' AND ESTATUS = 'LISTA ONIX' AND cedula='".$_SESSION['user']."'";
                    $query = $conn->query($sql);
  
                    echo "<h3>".$query->num_rows."</h3>";
@@ -184,9 +185,10 @@
             </div>
             <div class="table-responsive">
             <div class="box-body">
-            <!--<div class="text-center">
-              <h3><b>Recuerda usar la nueva funcionalidad. Al terminar el ingreso de tu venta, dirígete al apartado que se encuentra abajo de este mensaje haz click en el botón para enviar la Venta por WhatsApp a tu Supervisor.</b></h3>
-            </div>-->
+            <div align="center">
+                  <h3><b>ATENCIÓN! A partir del 1ro de Junio se aplicará una modificación a las Ofertas Comerciales de 100 y 50$; para descargar el PDF ve al apartado Herramientas/Ofertas Vigentes del Menú. Cualquier duda, comunícate con tu Supervisor.</b></h3>
+                  <img src="../Resources/Oferta_junio.jpg" alt="" style="width:80%">
+                  </div>
              </div>
               </div>        
 
@@ -249,9 +251,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
       </section>
     </div>

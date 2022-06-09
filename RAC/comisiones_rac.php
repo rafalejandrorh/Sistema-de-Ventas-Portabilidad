@@ -44,7 +44,8 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
         }
       ?>
 
-      <div class="row">
+
+<div class="row">
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
@@ -87,17 +88,17 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
 
                             while($row = $query->fetch_assoc()){
 
-                            //$sql2="SELECT *, rate_dolar from tasa_dolar";;
-                            //$query2 = $conn->query($sql2);
-                            //$dolarbcv = $query2 ->fetch_assoc();
+                            $sql2="SELECT *, rate_dolar from tasa_dolar";;
+                            $query2 = $conn->query($sql2);
+                            $dolarbcv = $query2 ->fetch_assoc();
 
-                            $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                           /* $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
                             $json = json_decode($string, TRUE);
-                            $dolarbcv = $json["USD"]["promedio_real"];
+                            $dolarbcv = $json["USD"]["promedio_real"];*/
 
                             $monto_a_cobrar = $row['ALTAS'] * $row['MONTO_ALTA'];  
 
-                            $monto_bs = $monto_a_cobrar * $dolarbcv;//['rate_dolar'];
+                            $monto_bs = $monto_a_cobrar * $dolarbcv['rate_dolar'];
                         ?>
                         <tr>
                             <td><?php echo $row['RAC']; ?></td>
@@ -105,7 +106,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
                             <td><?php echo '$ '.$row['MONTO_ALTA']; ?></td>
                             <td><?php echo '$ '.number_format($monto_a_cobrar,2); ?></td>
                             <td><?php echo 'Bs.S '.number_format($monto_bs,2); ?></td>
-                            <td><?php echo 'Bs.S '.number_format($dolarbcv,2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($dolarbcv['rate_dolar'],2); ?></td>
                             <td><?php echo $row['NRO_REFERENCIA']; ?></td>
                             <td><?php echo $row['PAGO']; ?></td>
                             <td><?php echo $row['NRO_CUENTA']; ?></td>
@@ -178,15 +179,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
       </div>
 
 
-
-
-
-
-
-
-
-      
-      <div class="row">
+<!--<div class="row">
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
@@ -221,7 +214,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
                   </thead>
                   <tbody>
                         <?php
-                        
+                        /*
                         $RAC = $_SESSION['user'];
 
                         $sql="SELECT * from Calculo_Comisiones_second WHERE id = $RAC";
@@ -229,17 +222,17 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
 
                             while($row = $query->fetch_assoc()){
 
-                            //$sql2="SELECT *, rate_dolar from tasa_dolar";;
-                            //$query2 = $conn->query($sql2);
-                            //$dolarbcv = $query2 ->fetch_assoc();
+                            $sql2="SELECT *, rate_dolar from tasa_dolar";;
+                            $query2 = $conn->query($sql2);
+                            $dolarbcv = $query2 ->fetch_assoc();
 
-                            $string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+                            /*$string = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
                             $json = json_decode($string, TRUE);
-                            $dolarbcv = $json["USD"]["promedio_real"];
+                            $dolarbcv = $json["USD"]["promedio_real"];*/
 
-                            $monto_a_cobrar = $row['ALTAS'] * $row['MONTO_ALTA'];  
+                            /*$monto_a_cobrar = $row['ALTAS'] * $row['MONTO_ALTA'];  
 
-                            $monto_bs = $monto_a_cobrar * $dolarbcv;//['rate_dolar'];
+                            $monto_bs = $monto_a_cobrar * $dolarbcv['rate_dolar'];
                         ?>
                         <tr>
                             <td><?php echo $row['RAC']; ?></td>
@@ -247,14 +240,14 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
                             <td><?php echo '$ '.$row['MONTO_ALTA']; ?></td>
                             <td><?php echo '$ '.number_format($monto_a_cobrar,2); ?></td>
                             <td><?php echo 'Bs.S '.number_format($monto_bs,2); ?></td>
-                            <td><?php echo 'Bs.S '.number_format($dolarbcv,2); ?></td>
+                            <td><?php echo 'Bs.S '.number_format($dolarbcv['rate_dolar'],2); ?></td>
                             <td><?php echo $row['NRO_REFERENCIA']; ?></td>
                             <td><?php echo $row['PAGO']; ?></td>
                             <td><?php echo $row['NRO_CUENTA']; ?></td>
                             <td><?php echo $row['PAGO_MOVIL']; ?></td>        
                         </tr>
                         <?php
-                        }?>
+                        }*/?>
                         </tbody>
                         </table>
                       </div> 
@@ -292,7 +285,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
                   $to = $row2['HASTA'];
 
                   $CEDULA = $_SESSION['user'];
-                  $sql="SELECT * from ventastotales WHERE FECHA_ALTA BETWEEN '$from' AND '$to' AND cedula = $CEDULA";
+                  /*$sql="SELECT * from ventastotales WHERE FECHA_ALTA BETWEEN '$from' AND '$to' AND cedula = $CEDULA";
                   $query = $conn->query($sql);
                       while($row = $query->fetch_assoc()){
                         ?>
@@ -308,7 +301,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
                             <td><?php echo $row['FECHA_ALTA']; ?></td>     
                         </tr>
                         <?php
-                        }?>
+                        }*/?>
                         </tbody>
                         </table>
                       </div> 
@@ -318,13 +311,7 @@ $range_from = date('m/d/Y', strtotime('-7 day', strtotime($range_to)));
       </div>
       
       </div>
-        </div>
-
-
-
-
-
-
+        </div> -->
 
 
 

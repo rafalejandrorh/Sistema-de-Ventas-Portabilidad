@@ -1,5 +1,5 @@
 <?php include 'includes/session.php'; ?>
-<?php include 'includes/conn.php'; ?>
+<?php include '../config/conn.php'; ?>
 <?php 
   include '../timezone.php'; 
   $today = date('Y-m-d');
@@ -16,6 +16,7 @@
   	<?php include 'includes/menubar.php'; ?>
 
   <div class="content-wrapper">
+      
     <section class="content-header">
       <h1><b>Dashboard</b></h1>
       <ol class="breadcrumb">
@@ -52,10 +53,9 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <?php
-                $sql = "SELECT * FROM plantilla where ESTATUS=1";
-                $query = $conn->query($sql);
+              include '../controllers/plantilla/Plantilla_reporte.php';
 
-                echo "<h3>".$query->num_rows."</h3>";
+              echo "<h3>".$activos."</h3>";
               ?>
              
               <p>RAC´S Activos</p>
@@ -63,7 +63,7 @@
             <div class="icon">
               <i class="ion ion-person"></i>
             </div>
-            <a href="Plantilla_activa.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="plantilla/Plantilla_activa.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         
@@ -71,37 +71,9 @@
           <div class="small-box bg-green">
             <div class="inner">
               <?php
+              include '../controllers/ventas/Ventas_conversion_mes.php';
 
-                $sql2="SELECT MES_VENTAS from ventas_config WHERE ID = 1";
-                $rquery = $conn->query($sql2);
-                $MES = $rquery->fetch_assoc();
-                $MES2 = $MES['MES_VENTAS'];
-
-                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
-                $query = $conn->query($sql);
-                $total = $query->num_rows;
-
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA' and MES = '$MES2'";
-                $query = $conn->query($sql);
-                $early = $query->num_rows;
-                
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'ALTA/POSPAGO' and MES = '$MES2'";
-                $query = $conn->query($sql);
-                $early2 = $query->num_rows;
-
-                $earlytotal = $early + $early2;
-
-                if($earlytotal < 1){
-                
-                  $percentage = 0;
-                  
-                  }else{
-                      
-                  $percentage = ($earlytotal/$total)*100;
-                      
-                  }
-
-                echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
+              echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
           
               <p>Conversión del Mes</p>
@@ -109,7 +81,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -117,26 +89,9 @@
           <div class="small-box bg-orange">
             <div class="inner">
               <?php
+              include '../controllers/ventas/Ventas_sinestatus_mes.php';
 
-                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
-                $query = $conn->query($sql);
-                $total = $query->num_rows;
-
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'SIN ESTATUS' and MES = '$MES2'";
-                $query = $conn->query($sql);
-                $sinestatus = $query->num_rows;
-
-                if($sinestatus < 1){
-                
-                  $percentage = 0;
-                  
-                  }else{
-                      
-                  $percentage = ($sinestatus/$total)*100;
-                      
-                  }
-
-                echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
+              echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
           
               <p>Porcentaje Sin Estatus</p>
@@ -144,7 +99,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -152,26 +107,9 @@
           <div class="small-box bg-red">
             <div class="inner">
               <?php
+              include '../controllers/ventas/Ventas_bajas_mes.php';
 
-                $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
-                $query = $conn->query($sql);
-                $total = $query->num_rows;
-
-                $sql = "SELECT * FROM ventastotales WHERE ESTATUS_CM = 'BAJA/EXPORTADA' and MES = '$MES2'";
-                $query = $conn->query($sql);
-                $bajasexp = $query->num_rows;
-
-                if($bajasexp < 1){
-                
-                  $percentage = 0;
-                  
-                  }else{
-                      
-                  $percentage = ($bajasexp/$total)*100;
-                      
-                  }
-
-                echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
+              echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
           
               <p>Porcentaje Bajas</p>
@@ -179,7 +117,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -187,20 +125,16 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <?php
+              include '../controllers/ventas/Ventas_mes.php';
 
-                    
-
-                   $sql = "SELECT * FROM ventastotales WHERE MES = '$MES2'";
-                   $query = $conn->query($sql);
- 
-                   echo "<h3>".$query->num_rows."</h3>";
+              echo "<h3>".$ventas_mes."</h3>";  
               ?>
               <p>Total Ventas Mes</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         
@@ -209,11 +143,9 @@
           <div class="small-box bg-green">
             <div class="inner">
               <?php
+              include '../controllers/ventas/ventas_altas.php';
 
-                $sql = "SELECT * FROM ventastotales WHERE MES_ALTA = '$MES2' AND ESTATUS_CM = 'ALTA'";
-                $query = $conn->query($sql);
-
-                echo "<h3>".$query->num_rows."</h3>"
+                echo "<h3>".$ventas_altas."</h3>"
               ?>
 
               <p>Ventas Altas</p>
@@ -221,7 +153,7 @@
             <div class="icon">
               <i class="ion-arrow-graph-up-right"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
       
@@ -242,7 +174,7 @@
             <div class="icon">
               <i class="ion ion-alert-circled"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
       
@@ -262,7 +194,7 @@
             <div class="icon">
               <i class="ion-arrow-graph-down-right"></i>
             </div>
-            <a href="Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="ventas/Ventasmes.php" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -296,12 +228,9 @@
                   </thead>
                   <tbody>
                         <?php
-                        date_default_timezone_set('America/Caracas');
-                        
-                        $Date = date('Y-m-d');
-                        $sql="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date'";
-                        $query = $conn->query($sql);
-                            while($row = $query->fetch_assoc()){
+                        include '../controllers/ventas/Ventasdia.php';
+
+                        foreach($obtener as $row){
                         ?>
                         <tr>
                             <td>
@@ -343,7 +272,7 @@
             </div>
             <div class="table-responsive">
             <div class="box-body">
-            <table id="" class="table table-bordered">
+            <table id="example2" class="table table-bordered">
                   <thead>
                     <th class="col-sm-4">RAC</th>
                     <th class="col-sm-3">VENTAS ENVIADAS</th>
@@ -351,33 +280,9 @@
                     <th class="col-sm-2">SPH</th>
                   </thead>
                   <tbody>
-                        <?php
-                        date_default_timezone_set('America/Caracas');
-
-                        $sql = "SELECT * FROM plantilla where ESTATUS=1";
-                        $query = $conn->query($sql);
-
-                        //echo "<h3>".$query->num_rows."</h3>";
-
-                            while($row = $query->fetch_assoc()){
-
-                              $Date = date('Y-m-d');
-
-                              $sql2="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date' AND VENDEDOR = '$row[RAC]'";
-                              $query2 = $conn->query($sql2);
-                              
-                              $sql3="SELECT * from ventastotales WHERE FECHA_CARGA = '$Date' AND VENDEDOR = '$row[RAC]' AND ESTATUS = 'LISTA ONIX'";
-                              $query3 = $conn->query($sql3);
-                              $sph = $query3->num_rows/7;
+                        <?php                 
+                          include '../controllers/ventas/Ventasdia_rac.php';   
                         ?>
-                        <tr>
-                            <td><?php echo $row['RAC']; ?></td>
-                            <td><?php echo $query2->num_rows; ?></td>
-                            <td><?php echo $query3->num_rows; ?></td>
-                            <td><?php echo number_format($sph,2); ?></td>
-                        </tr>
-                        <?php
-                        }?>
                         </tbody>
                         </table>
 
@@ -421,9 +326,6 @@
         </div>
       </div>
                       -->
-          </div>
-        </div>
-      </div>
                      
       </section>
     </div>

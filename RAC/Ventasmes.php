@@ -102,7 +102,7 @@
 </div>    
   
 
-<?php include 'includes/Footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 <?php include 'includes/scripts.php'; ?>
 </div> 
 

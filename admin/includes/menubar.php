@@ -58,8 +58,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-        <li><a href="comisiones_rac.php"><i class="fa fa-circle-o"></i>RAC 10 al 17 - 04</a></li>
-        <li><a href="comisiones_rac2.php"><i class="fa fa-circle-o"></i>RAC 18 al 24 - 04</a></li>
+        <li><a href="comisiones_rac.php"><i class="fa fa-circle-o"></i>RAC 26 - 04 al 15 - 05</a></li>
+        <!--<li><a href="comisiones_rac2.php"><i class="fa fa-circle-o"></i>RAC 05 al 08 - 05</a></li>-->
         <li><a href="comisiones_admin.php"><i class="fa fa-circle-o"></i>Administrativo</a></li>
         </ul>
         </li>

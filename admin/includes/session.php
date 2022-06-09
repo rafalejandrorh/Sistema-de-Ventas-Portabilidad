@@ -1,5 +1,6 @@
 <?php
 	session_start();
+
 	include 'conn.php';
 
 	if(!isset($_SESSION['admin']) || trim($_SESSION['admin']) == ''){

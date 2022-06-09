@@ -86,9 +86,7 @@
                   </form>
                   </div>
                 </div>
-              </div>
-              </div>
-            </div>
+
       </section>
   	<?php
   		if(isset($_SESSION['error'])){
