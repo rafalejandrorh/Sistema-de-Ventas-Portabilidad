@@ -5,7 +5,7 @@
         public static function conexion()
         {
 
-           $conn = new mysqli('localhost', 'enlacecc_ventas', 'ventas*2022', 'enlacecc_ventas');
+           $conn = new mysqli('localhost', 'root', '', 'enlacecc');
            return $conn; 
 
         }
